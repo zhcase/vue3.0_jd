@@ -1,21 +1,26 @@
 <template>
-  <div class="wrapper"></div>
-  <div class="docker">
-    <div class="docker__item docker__item--active">
-      <span class="iconfont" style="display: inline-block">&#xe60b;</span>
-      <div class="docker__title">首页</div>
-    </div>
-    <div class="docker__item">
-      <span class="iconfont" style="display: inline-block">&#xe60b;</span>
-      <div class="docker__title">购物车</div>
-    </div>
-    <div class="docker__item">
-      <span class="iconfont" style="display: inline-block">&#xe60b;</span>
-      <div class="docker__title">订单</div>
-    </div>
-    <div class="docker__item">
-      <span class="iconfont" style="display: inline-block">&#xe60b;</span>
-      <div class="docker__title">我的</div>
+  <div>
+    <div class="wrapper"></div>
+    <div class="docker">
+      <div class="docker__item docker__item--active">
+        <span class="iconfont icon-home" style="display: inline-block"></span>
+        <div class="docker__title">首页</div>
+      </div>
+      <div class="docker__item">
+        <span
+          class="iconfont icon-shop-cart-1"
+          style="display: inline-block"
+        ></span>
+        <div class="docker__title">购物车</div>
+      </div>
+      <div class="docker__item">
+        <span class="iconfont icon-order" style="display: inline-block"></span>
+        <div class="docker__title">订单</div>
+      </div>
+      <div class="docker__item">
+        <span class="iconfont icon-center" style="display: inline-block"></span>
+        <div class="docker__title">我的</div>
+      </div>
     </div>
   </div>
 </template>
